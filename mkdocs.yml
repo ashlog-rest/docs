@@ -2,6 +2,7 @@ site_name: AshLog
 site_description: AshLog documentation
 
 repo_url: https://github.com/ashlog-rest/docs/
+edit_uri: ./edit/main/docs
 
 theme:
   name: readthedocs
