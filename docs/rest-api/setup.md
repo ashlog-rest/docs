@@ -8,7 +8,7 @@ You can easily do that by creating a .env file with the following content:
 
 ```
 DJANGO_SECRET_KEY=''
-DJANGO_DEBUG='TRUE'
+DJANGO_DEBUG='TRUE' # Set to 'FALSE' in production
 DJANGO_SETTINGS_MODULE='main.settings'
 FIELD_ENCRYPTION_KEY=''
 ```
@@ -75,7 +75,7 @@ Once you have cloned the repository, you just need to run the following command:
 docker-compose up --build
 ```
 
-## Deploy on Heroku
+## Deploy to Heroku
 
 The repository is provided with a Procfile and it is already set to be deployed on Heroku.
 
