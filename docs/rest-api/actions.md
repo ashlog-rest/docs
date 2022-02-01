@@ -10,7 +10,7 @@ These are the avaliable actions and their arguments:
 |Comment|Action Name|Arguments|
 |---|---|---|
 |Send a Discord message.|`send_discord`|`channel_id`: required|
-|Send a `POST` request.|`send_post_requst`|`data`: optional; `headers`: optional|
+|Send a `POST` request.|`send_post_requst`|`url`: required; `data`: optional; `headers`: optional|
 |Send a Telegram message.|`send_telegram`|`chat_id`: required|
 
 ## Example: send Telegram message
