@@ -1,0 +1,14 @@
+site_name: AshLog
+site_description: AshLog documentation
+copytight: Copyright (c) 2022 AshLog
+repo_url: https://github.com/ashlog-rest/docs/
+nav:
+  - 'index.md'
+  - REST API:
+    - 'rest-api/setup.md'
+    - 'rest-api/endpoint.md'
+    - 'rest-api/actions.md'
+  - Web Dashboard:
+    - 'web-dashboard.md'
+theme:
+  name: readthedocs
