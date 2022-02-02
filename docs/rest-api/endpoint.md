@@ -22,7 +22,7 @@ Delete a project.|`PUT`|`/api/project/<int:project_id>/`|-|
 
 Comment|Method|Url|Parameters|
 ---|---|---|---|
-List logs.|`GET`|`/api/log/`|`project`: required|
+List logs.|`GET`|`/project/<int:project_id>/log/`|-|
 New log.|`POST`|`/api/log/`|`project`: required; `event`: required; `actions`: optional|
 
 For more information about the `actions` parameter, see the [Trigger actions](/docs/backend/actions) docs.
