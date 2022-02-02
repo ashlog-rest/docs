@@ -15,7 +15,7 @@ Comment|Method|Url|Parameters|
 ---|---|---|---|
 List projects.|`GET`|`/api/project/`|-|
 Create a new project.|`POST`|`/api/project/`|`name`: required|
-Edit a project.|`PUT`|`/api/project/<int:project_id>/`|`name`: required|
+Edit a project.|`PUT`|`/api/project/<int:project_id>/`|`name`: optional|
 Delete a project.|`PUT`|`/api/project/<int:project_id>/`|-|
 
 ## Logs management
